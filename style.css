@@ -1,0 +1,108 @@
+{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.center{
+
+    text-align: center;
+
+
+}
+
+
+
+body{
+
+    
+    font-family: 'Acme', sans-serif;
+    background-color: white; 
+
+
+}
+
+@import url(<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap" rel="stylesheet">);
+
+.split1 {
+
+    height: 100%;
+    width:30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 0px;
+
+}
+
+.split2 {
+
+    height: 100%;
+    width:70%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 0px;
+
+}
+
+
+.right{
+
+    font-family: 'Roboto Mono', monospace;
+    right: 0;
+    background-color: black;
+    color: white;
+
+}
+
+.left{
+
+    left: 0;
+    background-color: white;
+    color: black;
+
+}
+
+.align_center{
+
+    text-align: center;
+    padding-top: 20px;
+   
+
+}
+
+#matter {
+    color: black;
+    position: relative;
+    text-align: center;
+    font-family: 'mali', cursive; 
+    font-size:20px; 
+    margin: 10px 30px; 
+    letter-spacing: 6px; 
+    font-weight: bold;
+    top:70px;
+}
+
+.navbar{
+
+    padding-right: 0;
+    height: 8%;
+    position: fixed;
+    background-color: black;
+    color: #FF9848;
+
+}
+
+.footer{
+
+    padding-right: 0;
+    height: 10%;
+    position: fixed;
+    background-color: black;
+    color: #FF9848;s
+
+}
