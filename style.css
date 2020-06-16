@@ -23,6 +23,8 @@ body{
 
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
 @import url(<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap" rel="stylesheet">);
 
 .split1 {
@@ -62,6 +64,7 @@ body{
 .left{
 
     left: 0;
+    font-family: 'Boogaloo', cursive;
     background-color: white;
     color: black;
 
