@@ -1,7 +1,7 @@
 var aText = new Array(
     "HELLO, I am Virag",
     "",
-    "You are here it meance you are interested in what I am doing or what I am.",
+    "You are here it means you are interested in what I am doing or what I am.",
     "",
     "------>",
     
