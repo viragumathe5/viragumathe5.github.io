@@ -1,4 +1,4 @@
-{
+.{
 
     margin: 0;
     padding: 0;
@@ -11,7 +11,6 @@
 
 
 }
-
 
 
 body{
@@ -68,10 +67,16 @@ body{
 
 }
 
+.forPadding{
+
+    margin-bottom: 200px;
+
+}
+
 .align_center{
 
     text-align: center;
-    padding-top: 20px;
+    padding-top: 0px;
    
 
 }
@@ -87,22 +92,58 @@ body{
     top:70px;
 }
 
-.navbar{
-
-    padding-right: 0;
-    height: 8%;
-    position: fixed;
-    background-color: black;
+ul { 
+    margin: 30px; 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    width: 30px;
+    text-align: left;
+  }
+  li { 
+    display: table-cell; 
+    position: relative; 
+    padding: 10px 0;
+  }
+  a {
     color: #FF9848;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px 20px;
+    position: relative;
+  }
+  a:after {    
+    
+    bottom: 1;
+    content: '';
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: relative;
+    background: #ffffff;
+    transition: width 0.15s ease 0s, left 0.15s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0px; 
+  }
 
-}
+  
+  @media screen and (max-height: 300px) {
+      ul {
+          margin-top: 40px;
+      }
+  }
+
 
 .footer{
 
-    padding-right: 0;
     height: 10%;
-    position: fixed;
-    background-color: black;
-    color: #FF9848;s
+    width: 100%;
+    background-color: rgb(36, 36, 36);
+    position: absolute;
 
 }
