@@ -100,21 +100,23 @@ ul {
     width: 30px;
     text-align: left;
   }
-  li { 
+li { 
     display: table-cell; 
     position: relative; 
     padding: 10px 0;
-  }
-  a {
+}
+
+a {
     color: #FF9848;
     letter-spacing: 0.10em;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 15px;
     display: inline-block;
     padding: 20px 20px;
     position: relative;
   }
-  a:after {    
+
+  .und:after {    
     
     bottom: 1;
     content: '';
@@ -126,7 +128,7 @@ ul {
     transition: width 0.15s ease 0s, left 0.15s ease 0s;
     width: 0;
   }
-  a:hover:after { 
+  .und:hover:after { 
     width: 100%; 
     left: 0px; 
   }
