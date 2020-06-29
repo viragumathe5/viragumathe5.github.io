@@ -1,7 +1,7 @@
 var aText = new Array(
     "Heya!!!!  Hello Again",
     "",
-    "SO before you start with my blogs, I write for some technical terms to simplyfy them.",
+    "So before you start with my blogs, I write NLP, Data Science and sometimes about genral topics.",
     "",
     "Thank You :)",
     "------>",
