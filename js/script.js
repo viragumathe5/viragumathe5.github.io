@@ -3,6 +3,7 @@ var aText = new Array(
     "",
     "You are here it means you are interested in what I am doing or what I am.",
     "",
+    "So feel free to navigate using links",
     "------>",
     
     
