@@ -4,15 +4,14 @@ layout: default
 
 # About
 
-Hello,
-I try to teach human languages to computers for that I use some fancy methods called NLP.
-I have been always facinated towards the though convayninf process through speech and I guess thats why I end up in NLP
+Hello,<br>
+I try to teach human languages to computers. I work as an NLP Researcher. I have been always fascinated towards the thought conveying process through speech and I guess that why I ended up in NLP
 
 # What am I currently working on?
 
-My current works involves in finding expressoins from the text that refers to the same entitiy. In fancy terms we call it Coreferance Resolution. How am I trying to solve this issue?
+My current work involves finding expressions from the text that refer to the same entities. In fancy terms, we call it Coreference Resolution. How am I trying to solve this issue?
 
-So currently there are so many resources which helps us doing coreferance resolution for pronoun based analysis. But almost nothing for genral semantic coreferance resolution. So I am trying something mordern and old approach. 
+So currently there are a few resources that help to do coreferance resolution for pronoun-based analysis. But almost nothing for general semantic coreference resolution. So I am trying something modern and old approach.
 
 * * *
 
