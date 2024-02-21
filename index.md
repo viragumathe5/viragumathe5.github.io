@@ -1,5 +1,5 @@
 ---
-layout: defau
+layout: default
 ---
 
 # About
