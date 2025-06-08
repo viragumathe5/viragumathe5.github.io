@@ -11,9 +11,8 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in High Performance Computing, The University of Edinburgh, 2025
+* B.E. in Electronics and Telecommunication, Pune University, 2021
 
 Work experience
 ======
