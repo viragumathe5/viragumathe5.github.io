@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Getting Started with Event-Based Parallel Patterns</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      margin: 0;
+      background: #050608;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    .blog-container {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 20px;
+    }
+
+    .blog-container h1 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+      color: #66aaff;
+    }
+
+    .blog-container .date {
+      font-size: 0.9em;
+      color: #aaa;
+      margin-bottom: 25px;
+    }
+
+    .blog-container p {
+      font-size: 1em;
+      margin-bottom: 20px;
+    }
+
+    .blog-container ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    .blog-container li {
+      margin-bottom: 8px;
+    }
+
+    .blog-container code, pre {
+      display: block;
+      background: #111;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-x: auto;
+      font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+      font-size: 0.9em;
+      margin-bottom: 20px;
+    }
+
+    .blog-container a {
+      color: #66aaff;
+      text-decoration: none;
+    }
+
+    .blog-container a:hover {
+      text-decoration: underline;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 30px;
+      color: #66aaff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="blog-container">
+    <h1>Getting Started with Event-Based Parallel Patterns</h1>
+    <div class="date">Published: Oct 2025</div>
+
+    <p>
+      Event-based parallel patterns are a powerful way to structure high-performance computing applications. They allow tasks to be executed asynchronously, responding to events rather than following a fixed schedule.
+    </p>
+
+    <p>
+      In this post, we will explore the basics of implementing an event-based parallel pattern in C and MPI. The idea is to let each process react to incoming messages and trigger computation without blocking the main execution flow.
+    </p>
+
+    <p>
+      <strong>Key Concepts:</strong>
+      <ul>
+        <li>Non-blocking communication</li>
+        <li>Event queues</li>
+        <li>Task scheduling based on events</li>
+      </ul>
+    </p>
+
+    <p>
+      Here’s a small snippet illustrating how MPI_Iprobe can be used to check for incoming messages without blocking:
+    </p>
+
+    <pre><code>
+MPI_Status status;
+int flag = 0;
+MPI_Iprobe(MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &flag, &status);
+if (flag) {
+    MPI_Recv(buffer, count, MPI_DOUBLE, status.MPI_SOURCE, status.MPI_TAG, MPI_COMM_WORLD, &status);
+    // process the received event
+}
+    </code></pre>
+
+    <p>
+      By using event-based patterns, your application can remain responsive, overlapping communication with computation and improving overall performance.
+    </p>
+
+    <p>
+      For more advanced applications, these patterns can be combined with GPU offloading or multi-threaded task schedulers to fully exploit heterogeneous systems.
+    </p>
+
+    <a class="back-link" href="blogs.html">&larr; Back to Blog List</a>
+  </div>
+
+</body>
+</html>
